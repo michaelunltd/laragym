@@ -26,6 +26,6 @@ export function destroyAttendance(id) {
 
 export function createAttendance(data) {
   return axios
-    .post('/api/activities/attendance/', data)
+    .post('/api/activities/attendance', data)
     .then(response => response.data);
 }
